@@ -1,0 +1,228 @@
+/* Root */
+:root {
+    --blue-coloe: #0d6efd;
+    --pink-color: #d63384;
+    --silver--color: #696d70;
+    --black-color: #000;
+    --white-color: #fff;
+    --main-margin: 20px;
+    --margin-10px: 10px;
+}
+/*= Root =*/
+
+/* =========================================================================================================================================== */
+
+/* All */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+/*= All =*/
+
+/* =========================================================================================================================================== */
+
+/* Header Section */
+header {
+    width: 100vw;
+    background-color: var(--black-color);
+    padding: 20px;
+}
+
+header ul {
+    margin-right: var(--main-margin);
+}
+
+header ul li {
+    display: inline-block;
+    margin-left: var(--main-margin);
+}
+
+header ul li a {
+    color: var(--white-color);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+header ul li .home {
+    font-size: 2rem;
+    margin-left: 50px;
+}
+
+header ul li a:hover {
+    color: #dadada;
+}
+/*= Header Section =*/
+
+/* =========================================================================================================================================== */
+
+/* Main Section */
+main {
+    margin-top: var(--main-margin);
+}
+
+main .courses {
+    text-align: center;
+}
+
+main .courses h1 {
+    font-size: 2.5rem;
+}
+
+main ul {
+    margin: 40px;
+}
+
+main ul li {
+    margin: 0 100px;
+}
+
+main ul li a {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+main ul li a:hover {
+    text-decoration: underline;
+}
+
+main ul li .men {
+    color: var(--blue-coloe);
+}
+
+main ul li .girls {
+    color: var(--pink-color);
+}
+
+main ul li .both {
+    color: var(--silver--color);
+}
+
+main .allCourses {
+    padding: 20px;
+    border-radius: 50px;
+}
+
+main .menCourses, main .girlsCourses, main .bothCourses {
+    margin: 20px 10%;
+    text-align: center;
+}
+
+main .menCourses {
+    background-color: var(--blue-coloe);
+    color: var(--blue-coloe);
+}
+
+main .girlsCourses {
+    background-color: var(--pink-color);
+    color: var(--pink-color);
+}
+
+main .bothCourses {
+    background-color: var(--silver--color);
+    color: var(--silver--color);
+}
+
+main .allCourses .titles {
+    width: fit-content;
+    background-color: var(--white-color);
+    padding: 30px;
+    margin: 60px;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+}
+
+main .allCourses .titles h2 {
+    font-size: 2.5rem;
+    margin-bottom: var(--margin-10px);
+}
+
+main .allCourses .titles h3 {
+    font-size: 2.3rem;
+    margin-bottom: var(--margin-10px);
+}
+
+main .allCourses .titles h4 {
+    font-size: 2rem;
+    margin-bottom: var(--margin-10px);
+}
+
+main .allCourses .titles h5 {
+    font-size: 1.25rem;
+    margin-bottom: var(--margin-10px);
+}
+
+main .allCourses .titles button {
+    border: none;
+    padding: 10px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    cursor: pointer;
+    color: var(--white-color);
+}
+
+main .allCourses .titles .menBtn {
+    background-color: var(--blue-coloe);
+}
+
+main .allCourses .titles .girlBtn {
+    background-color: var(--pink-color);
+}
+
+main .allCourses .titles .bothBtn {
+    background-color: var(--silver--color);
+}
+
+main .allCourses .img {
+    display: inline-block;
+    margin: 10px;
+}
+
+main .allCourses .img img {
+    height: 250px;
+    border-radius: 50%;
+}
+/*= Main Section =*/
+
+/* =========================================================================================================================================== */
+
+/* Footer Section */
+footer {
+    width: 100vw;
+    background-color: var(--black-color);
+    padding: 5px;
+    text-align: center;
+}
+
+footer ul {
+    margin: 40px;
+}
+
+footer ul li {
+    margin: 0 100px;
+}
+
+footer ul li a {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--white-color);
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+/*= Footer Section =*/
